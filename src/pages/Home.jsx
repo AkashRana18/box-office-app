@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom';
 const Home = () => {
-
-    return (
-        <div>
-        <Link to = "/starred "> Click Here </Link>
-        <br/>
-        <Link to = "/about "> Click Here </Link>
-        </div>
-    )
-}
+  return (
+    <div>
+      <h1>Home Page</h1>
+      <Link to="/starred">Go to starred</Link>
+    </div>
+  );
+};
 export default Home;
