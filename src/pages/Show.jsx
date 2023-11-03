@@ -20,7 +20,7 @@ const Show = () => {
   if (showData) {
     return (
       <div>
-        <Link to="/"> Go Back to Home</Link>
+        <Link to="/">  Back to Home</Link>
 
         <ShowMainData
           image={showData.image}
